@@ -23,6 +23,16 @@
 			-ms-animation: none !important;
 			animation: none !important;
 		}
+
+
+    .vector
+{
+  text-align:center;
+  padding-top:50px;
+}
+
+
+
 		
 	body,input,select,textarea
 	{
@@ -136,6 +146,24 @@
 	/* Image */
 
 
+        /*Hover*/
+
+    	.outerLink 
+    	{
+  		background-color:black; 
+    		display:block; 
+    		opacity:1;
+    		filter:alpha(opacity=100);
+    		width:200px;
+    	}
+
+    	img.darkableImage 
+    	{
+    		opacity:1;
+    		filter:alpha(opacity=100);
+    	}
+
+        /*Hover end*/
 
 		.image
 		{
